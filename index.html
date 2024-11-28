@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Food Delivery</title>
+</head>
+
+<body>
+    <section class="container">
+        <header class="container-header">
+            <div class="title">
+                <h1>
+                    Food Delivery
+                </h1>
+                <p>
+                    Your food in 6 minutes
+                </p>
+            </div>
+        </header>
+
+        <main class="food-content">
+            <div class="food-title">
+                <h2>
+                    Your food
+                </h2>
+            </div>
+            <div class="burger options">
+                <div class="food option" onclick="burgerSelect(this)">
+                    <div>
+                        <img src="/images/hamburguer de carne com cheddar.png" alt="burger">
+                    </div>
+                    <div class="food-name">
+                        <h3>Salad burger</h3>
+                    </div>
+                    <div class="description">
+                        <p>ebifbwef</p>
+                    </div>
+                    <div class="price">
+                        $10
+                    </div>
+                    <ion-icon class="checkmark check" name="checkmark-circle"></ion-icon>
+                </div>
+                <div class="food option" onclick="burgerSelect(this)">
+                    <div>
+                        <img src="/images/um hamburguer de frango empanado.png" alt="burger">
+                    </div>
+                    <div class="food-name">
+                        <h3>Chicken Burger</h3>
+                    </div>
+                    <div class="description">
+                        <p>ebifbwef</p>
+                    </div>
+                    <div class="price">
+                        $10
+                    </div>
+                    <ion-icon class="checkmark check" name="checkmark-circle"></ion-icon>
+                </div>
+                <div class="food option" onclick="burgerSelect(this)">
+                    <div>
+                        <img src="/images/hamburguer de peixe.png" alt="burger">
+                    </div>
+                    <div class="food-name">
+                        <h3>Fish Burger</h3>
+                    </div>
+                    <div class="description">
+                        <p>ebifbwef</p>
+                    </div>
+                    <div class="price">
+                        $10
+                    </div>
+                    <ion-icon class="checkmark check" name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="food-title">
+                <h2>
+                    Your Drink
+                </h2>
+            </div>
+            <div class="drinks options">
+                <div class="drink option" onclick="drinkSelect(this)">
+                    <div>
+                        <img src="/images/suco de laranja no copo.png" alt="burger">
+                    </div>
+                    <div class="food-name">
+                        <h3>Orange juice</h3>
+                    </div>
+                    <div class="description">
+                        <p>ebifbwef</p>
+                    </div>
+                    <div class="price">
+                        $5
+                    </div>
+                    <ion-icon class="checkmark check" name="checkmark-circle"></ion-icon>
+                </div>
+                <div class="drink option" onclick="drinkSelect(this)">
+                    <div>
+                        <img src="/images/pineapple.png" alt="burger">
+                    </div>
+                    <div class="food-name">
+                        <h3>Pineapple Juice</h3>
+                    </div>
+                    <div class="description">
+                        <p>ebifbwef</p>
+                    </div>
+                    <div class="price">
+                        $5
+                    </div>
+                    <ion-icon class="checkmark check" name="checkmark-circle"></ion-icon>
+                </div>
+                <div class="drink option" onclick="drinkSelect(this)">
+                    <div>
+                        <img src="/images/grape juice.png" alt="burger">
+                    </div>
+                    <div class="food-name">
+                        <h3>Grape Juice</h3>
+                    </div>
+                    <div class="description">
+                        <p>ebifbwef</p>
+                    </div>
+                    <div class="price">
+                        $5
+                    </div>
+                    <ion-icon class="checkmark check" name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="food-title">
+                <h2>
+                    Your Dessert
+                </h2>
+            </div>
+            <div class="desserts options">
+                <div class="dessert option" onclick="dessertSelect(this)">
+                    <div>
+                        <img src="/images/realistic apple pie.png" alt="burger">
+                    </div>
+                    <div class="food-name">
+                        <h3>Apple Pie</h3>
+                    </div>
+                    <div class="description">
+                        <p>ebifbwef</p>
+                    </div>
+                    <div class="price">
+                        $5
+                    </div>
+                    <ion-icon class="checkmark check" name="checkmark-circle"></ion-icon>
+                </div>
+                <div class="dessert option" onclick="dessertSelect(this)">
+                    <div>
+                        <img src="/images/creme brule.png" alt="burger">
+                    </div>
+                    <div class="food-name">
+                        <h3>Crème Brûlée</h3>
+                    </div>
+                    <div class="description">
+                        <p>ebifbwef</p>
+                    </div>
+                    <div class="price">
+                        $5
+                    </div>
+                    <ion-icon class="checkmark check" name="checkmark-circle"></ion-icon>
+                </div>
+                <div class="dessert option" onclick="dessertSelect(this)">
+                    <div>
+                        <img src="/images/realistic image of ice cream.png" alt="burger">
+                    </div>
+                    <div class="food-name">
+                        <h3>Vanilla Ice Cream</h3>
+                    </div>
+                    <div class="description">
+                        <p>ebifbwef</p>
+                    </div>
+                    <div class="price">
+                        $5
+                    </div>
+                    <ion-icon class="checkmark check" name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="smoke-background display-none">
+                <div class="confirmation">
+                    <div class="pop-up">
+                        <div class="confirm-title">
+                            <h3>Confim Your Order</h3>
+                        </div>
+                        <div class="description-confirm">
+                            <div class="order">
+                                <div class="food-order">frango</div>
+                                <div class="price-food">$5</div>
+                            </div>
+                            <div class="order">
+                                <div class="drink-order">frango</div>
+                                <div class="price-drink">$5</div>
+                            </div>
+                            <div class="order">
+                                <div class="dessert-order">frango</div>
+                                <div class="price-dessert">$5</div>
+                            </div>
+                            <div class="total-order">
+                                <div class="total">Total</div>
+                                <div class="total-price">$5</div>
+                            </div>
+                            <div class="finish">
+                                <div class="confirm" onclick="finalConfirmation()">confirm the order</div>
+                                <div class="cancel" onclick="finalConfirmation()">Cancel the order</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer" onclick="closeOrder(this)">
+                    select 3 items
+                </div>
+            </footer>
+        </main>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="/JS/script.js"></script>
+
+</body>
+
+</html>
